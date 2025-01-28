@@ -12,7 +12,7 @@ Este projeto é uma aplicação web desenvolvida com **Next.js**, **TypeScript**
 
 Certifique-se de ter instalado em sua máquina:  
 - [Node.js](https://nodejs.org) (versão 16 ou superior).  
-- [Yarn](https://yarnpkg.com/) ou [npm](https://www.npmjs.com/).
+- [npm](https://www.npmjs.com/).
 
 ---
 
@@ -22,13 +22,13 @@ Certifique-se de ter instalado em sua máquina:
 2. Clone o repositório do projeto com o comando:
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone git@github.com:sousaGab/dashboard.git
 ```
 
 3. Acesse o diretório do projeto:
 
 ```bash
-cd nome-do-projeto
+cd dashboard
 ```
 
 ---
@@ -37,12 +37,6 @@ cd nome-do-projeto
 
 Execute o comando abaixo para instalar todas as dependências do projeto:
 
-- Com **Yarn**:
-  ```bash
-  yarn
-  ```
-
-- Com **npm**:
   ```bash
   npm install
   ```
@@ -52,11 +46,6 @@ Execute o comando abaixo para instalar todas as dependências do projeto:
 ### 4️⃣ Executando o projeto
 
 Inicie o servidor de desenvolvimento:
-
-- Com **Yarn**:
-  ```bash
-  yarn dev
-  ```
 
 - Com **npm**:
   ```bash
@@ -72,10 +61,6 @@ O servidor estará disponível em [http://localhost:3000](http://localhost:3000)
 Caso queira gerar uma versão de produção da aplicação, utilize os comandos abaixo:
 
 1. Gerar o build:
-   - Com **Yarn**:
-     ```bash
-     yarn build
-     ```
 
    - Com **npm**:
      ```bash
@@ -83,10 +68,6 @@ Caso queira gerar uma versão de produção da aplicação, utilize os comandos 
      ```
 
 2. Iniciar o servidor de produção:
-   - Com **Yarn**:
-     ```bash
-     yarn start
-     ```
 
    - Com **npm**:
      ```bash
